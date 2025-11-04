@@ -1,0 +1,126 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#lienzo{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    background-color: #1a1a1a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cara{
+    width: 200px;
+    height: 200px;
+    background-color: #dcdcdc; 
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid white;
+}
+
+.ojo{
+    width: 40px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50% 50% 40% 40%;
+    position: absolute;
+    top: 70px;
+}
+
+#ojode{ left: 35px; }
+#ojoiz{ right: 35px; }
+
+#boca{
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#luna{
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%) rotate(180deg);
+    overflow: hidden;
+}
+#luna::after{
+    content: "";
+    width: 40px;
+    height: 40px;
+    background-color: #dcdcdc;
+    border-radius: 50%;
+    position: absolute;
+    top: -8px;
+    left: 8px;
+}
+
+.lagrima{
+    width: 6px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+}
+#lagrima1{ left: 60px; }
+#lagrima2{ right: 60px; }
+
+#ojode{ left: 35px; }
+#ojoiz{ right: 35px; }
+
+#boca{
+    width: 60px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#cruz{
+    width: 4px;
+    height: 25px;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#cruz::after{
+    content: "";
+    width: 12px;
+    height: 4px;
+    background-color: black;
+    position: absolute;
+    top: 8px;
+    left: -4px;
+}
+
+.lagrima{
+    width: 6px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+}
+#lagrima1{ left: 60px; }
+#lagrima2{ right: 60px; }
