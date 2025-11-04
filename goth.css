@@ -37,6 +37,9 @@ body{
 #ojode{ left: 35px; }
 #ojoiz{ right: 35px; }
 
+#ojode:hover{background-color: darkmagenta;}
+#ojoiz:hover{background-color: darkmagenta;}
+
 #boca{
     width: 60px;
     height: 10px;
